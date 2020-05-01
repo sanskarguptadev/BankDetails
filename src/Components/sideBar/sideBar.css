@@ -1,0 +1,60 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+  
+.sidebar a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+}
+   
+.sidebar a.active {
+    background-color: grey;
+    color: white;
+}
+
+.green{
+    width: 100%; 
+    height: 70px; 
+    background-color:#4CAF50;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+    }
+    .green{
+        width: 100%;
+    }
+    a.active{
+        position: absolute;
+        top: 0px;
+        height: 38px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+    }
+    .green{
+        width: 100%;
+    }
+    a.active{
+        position: absolute;
+        top: 0px;
+        height: 38px;
+        width: 100px;
+    }
+}
+  
+  
